@@ -8,7 +8,7 @@ void main() {
 class Imc extends StatelessWidget {
   const Imc({super.key});
 
-  // A parte que está ligando com home
+  // A parte que está ligando com a classe home
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(

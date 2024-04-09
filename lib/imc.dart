@@ -22,7 +22,7 @@ class Home extends StatelessWidget {
     );
   }
 }
-// Nomeacao
+// Nomeacao onde contem o widget com estado aquilo que pode ser alterado
 class Imc extends StatefulWidget {
   const Imc({
     super.key,
@@ -45,7 +45,7 @@ class HomePageState extends State<Imc> {
       _textoInfo = "Informe seus dados";
     });
   }
-
+// Parte do código onde vai ser calculado o peso e a altura assim gerando o valor do imc
   void _calcular_Imc() {
     setState(() {
       double peso = double.parse(pesoController.text);
@@ -75,7 +75,7 @@ class HomePageState extends State<Imc> {
       }
     });
   }
-
+// Criancao do titulo da tela no appBar
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -34,6 +34,7 @@ class _HomePageState extends State<Home> {
               size: 120.0,
               color: Colors.deepOrangeAccent,
             ),
+            //Criacao do texto que vai ficar em baixo do icone
             Text(
               "Aplicação Principal",
               textAlign: TextAlign.center,
@@ -75,6 +76,7 @@ class _HomePageState extends State<Home> {
                               builder: (context) => const CadastroUsuario()),
                         );
                       }),
+                  // Criação do botão onde vai ser cadastrado o produto
                   ElevatedButton(
                       child: const Text("Cadastro de produtos"),
                       onPressed: () {

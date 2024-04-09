@@ -4,7 +4,7 @@ import 'package:somativa_3/cadastroProdutos.dart';
 void main() {
   runApp(const Home());
 }
-
+// Nomeacao onde contem o widget sem estado naquilo que nao pode se alterar
 class Home extends StatelessWidget {
   const Home({super.key});
 
@@ -17,7 +17,7 @@ class Home extends StatelessWidget {
     );
   }
 }
-// Nomeacao
+
 class CadastroUsuario extends StatefulWidget {
   const CadastroUsuario({
     super.key,
